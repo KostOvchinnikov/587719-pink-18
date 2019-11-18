@@ -2,11 +2,69 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Пинк</title>
+    <title>«Пинк» - Сайт фотоприложения</title>
   </head>
   <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
+	<header class="page-header">
+		<a class="page-header__logo" href="index.html">
+			<img class="page-header__logo-image" src="https://via.placeholder.com/150x150" width="75" height="22" alt="Логотип фотоприложения - «Пинк»">
+		</a>
+		<nav class="main-nav">
+			<button class="main-nav__toggle" type="button">Открыть меню</button>
+			<div class="main-nav__wrapper">
+				<ul class="main-nav__list site-list">
+					<li class="site-list__item">
+						<a href="index.html">Главная</a>
+					</li>
+					<li class="site-list__item">
+						<a href="photo.html">Фотографии</a>
+					</li>
+					<li class="site-list__item">
+						<a href="form.html">Конкурс</a>
+					</li>
+					<li class="site-list__item">
+						<a href="#">Html Academy</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<main class="page-main">
+		<h1 class="visually-hidden">Мобильное приложение «Пинк» - Скрасит серые будни</h1>
+
+		<section class="header-promo">
+			<h2 class="header-promo__title">Взгляните на жизнь иначе!</h2>
+			<a class="header-promo__btn" href="#">Скачать приложение</a>
+			<p>Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+		</section>
+
+		<section class="features">
+			<h2>Устали от серости мегаполиса?</h2>
+			<p>Нам есть, что вам предложить!</p>
+			<ul class="features-list">
+				<li class="features-list__item">
+					<h3>Поднимает настроение</h3>
+					<p>Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+				</li>
+				<li class="features-list__item">
+					<h3>Меняет мир вокруг</h3>
+					<p>Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+				</li>
+				<li class="features-list__item">
+					<h3>Заводит новых друзей</h3>
+					<p>Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+				</li>
+				<li class="features-list__item">
+					<h3>Эффект на 24 часа!</h3>
+					<p>Британские ученые провели исследования и доказали, что положительный эффект от использования приложения длится целые сутки!</p>
+					<a href="#">Узнать больше об исследовании</a>
+				</li>
+			</ul>
+		</section>
+		
+	</main>
 
   </body>
 </html>
