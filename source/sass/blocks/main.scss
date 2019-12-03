@@ -1,0 +1,142 @@
+/*index page*/
+
+.page-main {
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+
+  background-image: url("../img/iphone-screen-mobile@1x.png");
+  background-repeat: no-repeat;
+  background-position: 80px 1022px;
+}
+
+.features__title {
+  font-size: 24px;
+  font-weight: 300;
+  color: #283645;
+  /*Временно*/
+  line-height: normal;
+  text-align: center;
+  margin: 0;
+  padding-top: 38px;
+  background-color: #ffffff;
+}
+
+.features-list {
+  width: 259px;
+  margin: 0 auto;
+  margin-top: 87px;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  padding-bottom: 285px;
+}
+
+.features-list__item {
+
+  h3 {
+    color: #000000;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 1.71;
+    font-weight: 400;
+    color: #283645;
+  }
+}
+
+/*Photo page*/
+
+.photo-page {
+  background-color: #ffffff;
+}
+
+.photo__title {
+  font-size: 14px;
+  font-weight: normal;
+  /*Исправить*/
+  line-height: 24px;
+  color: #283645;
+  text-align: center;
+  margin: 0;
+  margin-top: 55px;
+  padding: 10px 20px;
+}
+
+.photo {
+  /*обратить внимание*/
+  &__image--top {
+    width: 320px;
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__list-item {
+    color: #283645;
+    margin-top: 20px;
+
+    img {
+      display: block;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+.user-label {
+  color: #283645;
+  background-color: lightgrey;
+  padding: 0 18px;
+  margin: 0;
+
+  b {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+
+  span {
+    opacity: 0.5;
+  }
+
+  &__comment {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+    color: #283645;
+  }
+
+  &__like {
+    margin: 0;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #d22856;
+  }
+
+  &__like-btn {
+    width: 13px;
+    height: 12px;
+    border: none;
+    background: none;
+    margin-right: 19px;
+    outline: none;
+    cursor: pointer;
+
+    path {
+      fill: #d22856;
+    }
+  }
+
+}
