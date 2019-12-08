@@ -1,0 +1,39 @@
+.features__title {
+  font-size: 24px;
+  font-weight: 300;
+  color: #283645;
+  /*Временно*/
+  line-height: normal;
+  text-align: center;
+  margin: 0;
+  padding-top: 38px;
+  background-color: #ffffff;
+}
+
+.features-list {
+  width: 259px;
+  margin: 0 auto;
+  margin-top: 87px;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  padding-bottom: 285px;
+}
+
+.features-list__item {
+  h3 {
+    color: #000000;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 1.71;
+    font-weight: 400;
+    color: #283645;
+  }
+}
