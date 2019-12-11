@@ -5,19 +5,18 @@
   width: 180px;
   display: flex;
   justify-content: space-between;
+}
 
+.social-list__item {
+  display: block;
+  width: 46px;
+  height: 46px;
+  border: 3px solid lightgray; /*Цвет поменять*/
+  border-radius: 50%;
+  text-align: center;
+  padding: 11px 0;
 
-  &__item {
-    display: block;
-    width: 46px;
-    height: 46px;
-    border: 3px solid lightgray; /*Цвет поменять*/
-    border-radius: 50%;
-    text-align: center;
-    padding: 11px 0;
-
-    path {
-      fill: #d4345f;
-    }
+  path {
+    fill: #d4345f;
   }
 }

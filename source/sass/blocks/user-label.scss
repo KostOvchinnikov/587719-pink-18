@@ -1,0 +1,46 @@
+.user-label {
+  color: #283645;
+  background-color: lightgrey;
+  padding: 0 18px;
+  margin: 0;
+
+  b {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+
+  span {
+    opacity: 0.5;
+  }
+}
+
+.user-label__comment {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: left;
+  color: #283645;
+}
+
+.user-label__like {
+  margin: 0;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #d22856;
+}
+
+.user-label__like-btn {
+  width: 13px;
+  height: 12px;
+  border: none;
+  background: none;
+  margin-right: 19px;
+  outline: none;
+  cursor: pointer;
+
+  path {
+    fill: #d22856;
+  }
+}

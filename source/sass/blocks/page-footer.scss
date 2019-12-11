@@ -1,15 +1,7 @@
-/*Временно*/
-
 .page-footer {
   background-color: #ffffff;
-  margin: 0;
   padding: 0;
-
-  &__logo {
-    display: block;
-    margin: 0 auto;
-    padding: 40px 0;
-  }
+  margin: 0 auto;
 
   p {
     width: 128px;
@@ -29,4 +21,10 @@
       fill: #d4345f;
     }
   }
+}
+
+.page-footer__logo {
+  display: block;
+  margin: 0 auto;
+  padding: 40px 0;
 }

@@ -6,18 +6,6 @@
   padding: 0;
   padding-top: 50px;
 
-  &__btn {
-    width: 281px;
-    padding: 14px 43px;
-    margin: 0;
-
-    font-size: 18px;
-    font-weight: 700;
-    text-align: center;
-    color: #ffffff;
-    border: 3px solid #ffffff;
-    border-radius: 30px;
-  }
 
   p {
     font-size: 14px;
@@ -28,4 +16,17 @@
     padding-bottom: 30px;
     margin-bottom: 0;
   }
+}
+
+.header-promo__btn {
+  width: 281px;
+  padding: 14px 43px;
+  margin: 0;
+
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+  border-radius: 30px;
 }
