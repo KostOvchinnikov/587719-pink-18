@@ -38,7 +38,7 @@
     /*Временно для сетки*/
     min-height: 394px;
 
-    ::before {
+    &::before {
       content: "";
       position: absolute;
 

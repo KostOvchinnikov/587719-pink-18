@@ -16,10 +16,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-
-    path {
-      fill: #d4345f;
-    }
   }
 }
 
@@ -27,4 +23,10 @@
   display: block;
   margin: 0 auto;
   padding: 40px 0;
+}
+
+.page-footer__developed {
+  path {
+    fill: #d4345f;
+  }
 }
