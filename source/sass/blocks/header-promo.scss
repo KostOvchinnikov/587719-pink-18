@@ -1,0 +1,32 @@
+.header-promo {
+  /*Временно*/
+  width: 320px;
+  margin: 0 auto;
+  background-color: #1b242e;
+  padding: 0;
+  padding-top: 50px;
+
+
+  p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.71;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+  }
+}
+
+.header-promo__btn {
+  width: 281px;
+  padding: 14px 43px;
+  margin: 0;
+
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+  border-radius: 30px;
+}

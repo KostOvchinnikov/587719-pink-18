@@ -1,0 +1,64 @@
+.page-header {
+  width: 320px;
+  margin: 0 auto;
+  background-color: #283645;
+  padding: 0;
+}
+
+.page-header__logo-wrapper {
+  width: 320px;
+  padding: 21px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-shadow: 0 1px 0 0 var(--black-two);
+}
+
+.page-header__toggle {
+  margin: 0;
+  padding: 0;
+  width: 24px;
+  height: 23px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.page-header__title-wrapper {
+  position: relative;
+  /*Исправить*/
+  margin-bottom: -17px;
+  /*Общий фон*/
+  background-image: url("../img/bg-back-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 -65px;
+
+  &--index {
+    position: relative;
+    /*Временно для сетки*/
+    min-height: 394px;
+
+    &::before {
+      content: "";
+      position: absolute;
+
+      top: 108px;
+      left: 0;
+
+      width: 320px;
+      height: 314px;
+
+      background-image: url("../img/iphone-hand-mobile@1x.png");
+      background-repeat: no-repeat;
+    }
+  }
+}
+
+.page-header__title {
+  font-size: 24px;
+  line-height: normal;
+  font-weight: 300;
+  padding: 28px 46px;
+  padding-bottom: 87px;
+  text-align: center;
+}

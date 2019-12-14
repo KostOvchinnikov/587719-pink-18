@@ -1,0 +1,32 @@
+.page-footer {
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0 auto;
+
+  p {
+    width: 128px;
+    height: 34px;
+    margin: 50px auto;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: normal;
+    color: #283645;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.page-footer__logo {
+  display: block;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.page-footer__developed {
+  path {
+    fill: #d4345f;
+  }
+}
