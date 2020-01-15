@@ -1,7 +1,7 @@
 .header-promo {
   /*Временно*/
-  width: 320px;
-  margin: 0 auto;
+  min-width: 280px;
+  margin: 0;
   background-color: #1b242e;
   padding: 0;
   padding-top: 50px;
@@ -19,6 +19,7 @@
 }
 
 .header-promo__btn {
+  display: block;
   width: 281px;
   padding: 14px 43px;
   margin: 0;
@@ -29,4 +30,36 @@
   color: #ffffff;
   border: 3px solid #ffffff;
   border-radius: 30px;
+}
+
+.header-promo__wrapper {
+  min-width: 280px;
+  background: none;
+  margin-right: auto;
+}
+
+@media (min-width: $tablet-width) {
+  .header-promo {
+    min-width: 620px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header-promo__wrapper {
+    position: relative;
+  }
+
+  .header-promo__promo-block {
+    display: block;
+    position: absolute;
+    width: 300px;
+    top: -300px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .header-promo {
+    margin: 0;
+    padding: 0;
+  }
 }

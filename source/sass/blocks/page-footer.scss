@@ -2,6 +2,8 @@
   background-color: #ffffff;
   padding: 0;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 
   p {
     width: 128px;
@@ -25,8 +27,24 @@
   padding: 40px 0;
 }
 
-.page-footer__developed {
+.page-footer__copyright {
   path {
     fill: #d4345f;
+  }
+}
+
+@media (min-width: $mobile-width) {
+  .page-footer {
+    &--index {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .page-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 }

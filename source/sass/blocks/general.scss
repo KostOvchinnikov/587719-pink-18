@@ -1,11 +1,14 @@
 html,
 body {
+  min-width: 320px;
+  margin: 0;
   padding: 0;
   font-family: "OpenSans", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 300;
   color: #ffffff;
   box-sizing: border-box;
+  background-color: #ffffff;
 }
 
 *,
@@ -42,4 +45,28 @@ img {
   width: 281px;
   margin: 0 auto;
   padding: 0;
+}
+
+@media (min-width: $tablet-width) {
+  body {
+    min-width: $tablet-width;
+  }
+
+  .container {
+    width: 620px;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  body {
+    min-width: $desktop-width;
+  }
+
+  .container {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0;
+  }
 }

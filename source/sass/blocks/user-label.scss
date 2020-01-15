@@ -44,3 +44,15 @@
     fill: #d22856;
   }
 }
+
+@media (min-width: $tablet-width) {
+  .user-label__like {
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .user-label__like-btn {
+    order: 2;
+  }
+}

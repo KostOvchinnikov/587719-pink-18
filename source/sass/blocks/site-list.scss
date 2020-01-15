@@ -1,13 +1,14 @@
 .site-list {
+  display: block;
   list-style: none;
   margin: 0;
   padding: 0;
-  /*Убрать*/
-  margin-bottom: -17px;
+
+  background-color: #283645;
 }
 
 .site-list__item {
-  width: 320px;
+  width: 100%;
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
@@ -18,9 +19,50 @@
 }
 
 .site-list__anc {
-  width: 320px;
+  min-width: 320px;
   display: block;
   color: #ffffff;
   text-align: center;
   padding: 22px 87px;
+}
+
+@media (min-width: $mobile-width) {
+  .site-list__item {
+    width: 100%;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .site-list__item {
+    width: 100%;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .site-list {
+    width: 621px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    background: none;
+  }
+
+  .site-list__item {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: none;
+    background: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .site-list__anc {
+    min-width: 50px;
+    display: inline;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
 }
