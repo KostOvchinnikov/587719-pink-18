@@ -33,12 +33,8 @@
   }
 }
 
-@media (min-width: $mobile-width) {
-  .page-footer {
-    &--index {
-      display: none;
-    }
-  }
+.page-footer--index {
+  display: none;
 }
 
 @media (min-width: $tablet-width) {
