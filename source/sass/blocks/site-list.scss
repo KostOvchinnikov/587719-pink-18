@@ -26,11 +26,7 @@
   padding: 22px 87px;
 }
 
-@media (min-width: $mobile-width) {
-  .site-list__item {
-    width: 100%;
-  }
-}
+
 
 @media (min-width: $tablet-width) {
   .site-list__item {
