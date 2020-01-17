@@ -9,3 +9,16 @@
   padding-top: 38px;
   background-color: #ffffff;
 }
+
+@media (min-width: $tablet-width) {
+  .features__title {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .features__title {
+    font-size: 50px;
+    font-weight: 300;
+  }
+}
